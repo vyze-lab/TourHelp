@@ -1,0 +1,235 @@
+.parabg{
+    color:  rgb(172, 17, 17);
+    background-color: antiquewhite;
+    /* box-shadow: 0px 6px #980909; */
+    width: 600px;
+    font-family:cursive;
+    /* font-weight: bolder; */
+    font-size: 158%;
+    border-left: solid #980909 6px;
+    border-bottom: solid #980909 2px;
+    /* border-radius: 8px; */
+    margin-top: 50px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    padding: 4px 10px 4px 10px;
+}
+.bodybg{
+    border : 1px solid rgb(124, 72, 3);
+    border-radius: 10px;
+    font-style: oblique;
+    background-image: linear-gradient(45deg, #f7d4d4 2.38%, white 2.38%, white 50%, #f7d4d4 50%, #f7d4d4 52.38%, white 52.38%, white 100%);
+    background-size: 21.00px 21.00px;
+    width :1600px;
+    font-size: 132%;
+    font-family: 'Brush Script MT', cursive;
+    margin: 20px;
+}
+.imagebg{
+    border-left:solid #980909 6px;
+    border-bottom:solid #980909 1px;
+    /* border-radius: 10px; */
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: -28px;
+    /* transition-property: ; */
+    background-image: linear-gradient(45deg, #f7d4d4 2.38%, white 2.38%, white 50%, #f7d4d4 50%, #f7d4d4 52.38%, white 52.38%, white 100%);
+    background-size: 21.00px 21.00px;
+    width: 1230px;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    z-index: 70;
+}
+.fbbg{
+    border : 1px solid rgb(124, 72, 3);
+    border-radius: 8px;
+    margin: 20px;
+    background-image: linear-gradient(45deg, #f7d4d4 2.38%, white 2.38%, white 50%, #f7d4d4 50%, #f7d4d4 52.38%, white 52.38%, white 100%);
+    background-size: 21.00px 21.00px;
+    font-size: 22px;
+    padding: 7px;
+    width: 1240px;
+    cursor: pointer;
+    /* height: 1000px; */
+}
+.headbg{
+    color:	#5a0560;
+    /* border-top: 3px solid red; */
+    /* border-bottom: 3px solid red; */
+    /* border-radius: 8px; */
+    background-color: #c683e2;
+    /* width: 100vw; */
+    height: 64px;
+    font-size: 100%;
+    font-family:'Lobster';
+    font-weight: bolder;
+    font-size: 60px;
+    text-align: center;
+    text-decoration:solid;
+    margin-left: -8px;
+    padding: 40px 8px 8px 8px;
+    margin-bottom: -23px;
+    z-index: 0;
+    text-shadow: 4px 10px 5px #0000004d;
+    margin-right: -8px;
+    margin-top: -28px;
+    line-height: 50px;
+    display: block;
+    /* position: relative; */
+    /* position: absolute; */
+}
+.subheadbg{
+    z-index: 12;
+    color :rgb(3, 65, 68);
+    text-shadow: 2px 2px 1px #ffffffd1;
+    background-color:#86dcd8;
+    font-family: 'Pacifico', cursive;
+    /* border-top: 8px solid #078982; */
+    border-bottom: 2px solid rgb(14 175 181);
+    /* border-radius: 7px; */
+    /* width: 100%; */
+    font-size: 152%;
+    /* border-top: rgb(4, 68, 93) 100px; */
+    /* font-family: 'Indie Flower', cursive; */
+    font-style: italic;
+    /* margin: 20px; */
+    margin-right: -8px;
+    margin-left: -8px;
+    margin-top: 22px;
+    padding: 10px;
+    display: block;
+    /* position: relative; */
+    box-sizing: border-box;
+}
+.theadbg{color: rgb(12, 5, 93);
+    font-size: large;
+    background-image: linear-gradient(45deg, #f7d4d4 2.38%, white 2.38%, white 50%, #f7d4d4 50%, #f7d4d4 52.38%, white 52.38%, white 100%);
+    background-size: 21.00px 21.00px;
+}
+#note{
+    /* font-size: larger; */
+    color:  rgb(172, 17, 17);
+    background-color: antiquewhite;
+    width: 600px;
+    font-family:cursive;
+    /* font-weight: bolder; */
+    font-size: 158%;
+    border-left: solid #890707 6px;
+    border-bottom: solid #890707 2px;
+    /* border-radius: 8px; */
+    padding: 4px;
+    padding-left: 10px;
+    /* margin: auto; */
+}
+
+.thead{
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 138%;
+    font-family: 'Lucida Console', cursive;
+    padding: 10px 6px 10px 4px;
+}
+.tbody1{
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 132%;
+    font-family: 'Brush Script MT', cursive;
+    text-align: left;
+    padding: 8px;
+}
+.tbody2{
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 136%;
+    font-family: 'Brush Script MT', cursive;
+    text-align: right;
+    padding-right: 8px;
+}
+.img{
+    /* border-block: 1px solid black; */
+    /* border: 7px solid rgb(0, 0, 0); */
+    /* border-radius: 5px; */
+    margin: 18px 0px;
+    /* justify-content: space-evenly; */
+}
+#table{
+    width: 760px; 
+    margin: auto;
+    margin-bottom: 8px;
+    margin-left: -127px;
+}
+#imgborder{
+    width:1640px;
+}
+#imgmar{
+    margin-bottom: 4px;
+    width: 780px;
+    margin-top: 40px;
+    clear: both;
+    cursor: pointer;
+    position: relative;
+    z-index: 80;
+}
+#tourlist{
+    float: left;
+    width: 580px;
+    padding-right: 6px;
+    border : 1px solid rgb(124, 72, 3);
+    border-radius: 10px;
+    font-style: oblique;
+    background-image: linear-gradient(45deg, #f7d4d4 2.38%, white 2.38%, white 50%, #f7d4d4 50%, #f7d4d4 52.38%, white 52.38%, white 100%);
+    background-size: 21.00px 21.00px;
+    font-size: 132%;
+    font-family: 'Brush Script MT', cursive;
+    margin: 20px;
+    margin-bottom: 36px;
+    /* width: 760; */
+}
+#costs{
+    float: left;
+    width: 780px;
+    margin-top: 20px;
+    position: absolute;
+    left: 860px;
+    top: 352x;
+    
+    /* margin: 100px; */
+}
+#totalcost{
+    float: left;
+    color: rgb(172, 17, 17);
+    background-color: antiquewhite;
+    width: 600px;
+    font-family:cursive;
+    /* font-weight: bolder; */
+    font-size: 158%;
+    border-left: solid #890707 6px;
+    border-bottom: solid #890707 2px;
+    /* border-radius: 8px; */
+    margin-top: -94px;
+    padding: 3px 5px;
+    margin-left: -131px;
+}
+#notes{
+    float: left;
+    margin-left: -126px;
+    position: absolute;
+    left: 860px;
+    top: 576px;
+    
+}
+#impnote{
+    font-style: oblique;
+    background-image: linear-gradient(45deg, #f7d4d4 2.38%, white 2.38%, white 50%, #f7d4d4 50%, #f7d4d4 52.38%, white 52.38%, white 100%);
+    background-size: 21.00px 21.00px;
+    width: 570px;
+    margin-left: auto;
+}
+#faceb:hover{ 
+    background-color: white;
+}
+a:hover{
+    background-color: black;
+}
