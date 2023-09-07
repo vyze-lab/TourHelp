@@ -18,7 +18,7 @@
     border : 1px solid rgb(124, 72, 3);
     border-radius: 10px;
     font-style: oblique;
-    background-image: linear-gradient(45deg, #f7d4d4 2.38%, white 2.38%, white 50%, #f7d4d4 50%, #f7d4d4 52.38%, white 52.38%, white 100%);
+    /* background-image: linear-gradient(45deg, #f7d4d4 92.38%, white 2.38%, white 50%, #f7d4d4 90%, #f7d4d4 92.38%, white 52.38%, white 10%); */
     background-size: 21.00px 21.00px;
     width :1600px;
     font-size: 132%;
@@ -34,7 +34,8 @@
     margin-right: 20px;
     margin-top: -28px;
     /* transition-property: ; */
-    background-image: linear-gradient(45deg, #f7d4d4 2.38%, white 2.38%, white 50%, #f7d4d4 50%, #f7d4d4 52.38%, white 52.38%, white 100%);
+    background-color:#fcf0f0;
+    /* background-image: linear-gradient(45deg, #f7d4d4 2.38%, white 2.38%, white 50%, #f7d4d4 50%, #f7d4d4 52.38%, white 52.38%, white 100%); */
     background-size: 21.00px 21.00px;
     width: 1230px;
     display: flex;
@@ -46,7 +47,8 @@
     border : 1px solid rgb(124, 72, 3);
     border-radius: 8px;
     margin: 20px;
-    background-image: linear-gradient(45deg, #f7d4d4 2.38%, white 2.38%, white 50%, #f7d4d4 50%, #f7d4d4 52.38%, white 52.38%, white 100%);
+    background-color:#f7ebeb;
+    /* background-image: linear-gradient(45deg, #f7d4d4 2.38%, white 2.38%, white 50%, #f7d4d4 50%, #f7d4d4 52.38%, white 52.38%, white 100%); */
     background-size: 21.00px 21.00px;
     font-size: 22px;
     padding: 7px;
@@ -84,7 +86,7 @@
     z-index: 12;
     color :rgb(3, 65, 68);
     text-shadow: 2px 2px 1px #ffffffd1;
-    background-color:#86dcd8;
+    background-color:#c2edeb;
     font-family: 'Pacifico', cursive;
     /* border-top: 8px solid #078982; */
     border-bottom: 2px solid rgb(14 175 181);
@@ -102,10 +104,12 @@
     display: block;
     /* position: relative; */
     box-sizing: border-box;
+    text-align: center;
 }
 .theadbg{color: rgb(12, 5, 93);
     font-size: large;
-    background-image: linear-gradient(45deg, #f7d4d4 2.38%, white 2.38%, white 50%, #f7d4d4 50%, #f7d4d4 52.38%, white 52.38%, white 100%);
+    background-color:#f8e4e4;
+    /* background-image: linear-gradient(45deg, #f7d4d4 2.38%, white 2.38%, white 50%, #f7d4d4 50%, #f7d4d4 52.38%, white 52.38%, white 100%); */
     background-size: 21.00px 21.00px;
 }
 #note{
@@ -176,10 +180,11 @@
     float: left;
     width: 580px;
     padding-right: 6px;
-    border : 1px solid rgb(124, 72, 3);
+    border: 1px solid rgb(172, 17, 17);
     border-radius: 10px;
     font-style: oblique;
-    background-image: linear-gradient(45deg, #f7d4d4 2.38%, white 2.38%, white 50%, #f7d4d4 50%, #f7d4d4 52.38%, white 52.38%, white 100%);
+    background-color:#f8eaea;
+    /* background-image: linear-gradient(45deg, #f7d4d4 50.38%, white 46.38%, white 50%, #f7d4d4 50%, #f7d4d4 80.38%, white 52.38%, white 10%); */
     background-size: 21.00px 21.00px;
     font-size: 132%;
     font-family: 'Brush Script MT', cursive;
@@ -216,20 +221,37 @@
     float: left;
     margin-left: -126px;
     position: absolute;
-    left: 860px;
-    top: 576px;
+    left: 854px;
+    top: 1280px;
     
 }
 #impnote{
     font-style: oblique;
-    background-image: linear-gradient(45deg, #f7d4d4 2.38%, white 2.38%, white 50%, #f7d4d4 50%, #f7d4d4 52.38%, white 52.38%, white 100%);
+    background-color:#faeded;
+    /* background-image: linear-gradient(45deg, #f7d4d4 2.38%, white 2.38%, white 50%, #f7d4d4 50%, #f7d4d4 52.38%, white 52.38%, white 100%); */
     background-size: 21.00px 21.00px;
     width: 570px;
     margin-left: auto;
+    border-bottom: 1px solid #9b0e0e;
 }
 #faceb:hover{ 
     background-color: white;
 }
 a:hover{
     background-color: black;
+}
+.desc{
+    font-size: 132%;
+    /* color: #9b0e0e; */
+    font-style: oblique;
+    font-family: cursive;
+    /* border-top: 1px solid black; */
+    border-bottom: 1px ridge black;
+    margin:2px;
+    padding: 5px;
+    text-align: left;
+    background-image: linear-gradient(45deg, #f7d4d4 16.38%, white 2.38%, white 50%, #f7d4d4 40%, #f7d4d4 100%, white 52.38%, white 10%);
+}
+.desclist{
+    margin-left: -2px;
 }
