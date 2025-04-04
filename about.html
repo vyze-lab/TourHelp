@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Eagle+Lake&family=Permanent+Marker&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <title>Darjeeling Tour</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+        header { background: #2C3E50; color: #E0E0E0; padding: 1px; text-align: center; font-family: "Satisfy",cursive;font-size: 20px;}
+        nav { display: flex; justify-content: center; background: #4A6572; padding: 10px; }
+        nav a { color:  #E0E0E0; text-decoration: none; font-size: 18px; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; margin : 0px 48px;}
+        nav a:hover{
+            color: #A5D6A7;
+            /* rotate: 180deg; */
+            scale: 1.5;
+            transition:150ms;
+        }
+        .container { padding: 0px; text-align: center; margin-top: 0px;}
+        .image-container {
+            position: relative;
+            height: 100vh;
+            overflow: hidden;
+        }
+        .image-container img {
+            width: 100%;
+            height: 100%;
+            object-fit:cover;
+            opacity: 0.4;
+        }
+        .text-overlay {
+            position: absolute;
+            /* max-width: 700px;
+            width: 100%; */
+            top: 40%;
+            margin-top: 32px;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: #37474F;
+            font-size: 28px;
+            /* text-align: justify; */
+            font-family: "Caveat",cursive;
+            font-weight: bold;
+            background: rgba(255, 255, 255, 0);
+            /* padding: 10px 20px; */
+            /* border-radius: 5px; */
+            /* border: 1px solid blue; */
+        }
+        @media (max-width: 470px) {
+            .text-overlay {
+                padding: 10px;
+                font-size: 14px;
+            }
+            
+        }
+        @media (max-width: 770px) {
+            nav a{
+                margin: 0px 10px;
+            }
+        }
+        footer { background: #2C3E50; color: #E0E0E0; text-align: center; padding: 10px; position: fixed; bottom: 0; width: 100%; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Scenic Sojourn</h1>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <div class="container">
+        <div class="image-container">
+            <img src="abtpage.jpg" alt="Darjeeling View">
+            <div class="text-overlay"><h2>Our travel log</h2>
+                <ul>
+                    <li>Day 1: We boarded the Shatabdi Express from Howrah to New Jalpaiguri, where we stayed the night in a hotel.</li>
+                    <li>Day 2: We booked a cab and set off for Darjeeling early to have time to visit Mirik, Lepchajagat, and the Nepal-India border on the way, and we stayed at Himalayan Hillstay hotel, which we had booked through Agoda.</li>
+                    <li>Day 3: Visited Lamahatta Eco Park, Peshok Tea Garden, Rock Garden and returned to the hotel by sundown.</li>
+                    <li>Day 4: Visited the Gopal Dhara Tea Garden, Tribeni, Teesta River and returned to the hotel by sundown.</li>
+                    <li>Day 5: Visited Tiger Hill, Batasia Loop, Local Market in the morning, and Kalimpong in the afternoon, and then returned to the hotel before dark.</li>
+                    <li>Day 6: We had our flight booked from Bagdogra airport to Kolkata, but due to our flight being cancelled on the last moment, we had to return by a rented car. </li>
+                </ul></div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2025 Scenic Sojourn</p>
+    </footer>
+</body>
+</html>
