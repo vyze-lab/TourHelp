@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Darjeeling Tour</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+        header { background: #2C3E50; color:#E0E0E0; padding: 1px; text-align: center; font-family: "Satisfy", cursive;font-size: 20px;}
+        nav { display: flex; justify-content: center; background: #4A6572; padding: 10px; }
+        nav a { color: #E0E0E0; margin: 0 48px; text-decoration: none; font-size: 18px; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+        nav a:hover{
+            color: #A5D6A7;
+            scale: 1.5;
+            transition:150ms;
+        }
+        
+        body{
+            background-color: #E0E0E0;
+        }
+        .content{
+            text-align: center;
+            justify-items: center;
+        }
+        .contact-form input {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .contact-form button {
+            background: #4A6572;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            margin-top: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        .text{
+            font-family:'Courier New', Courier, monospace;
+            font-weight: bold;
+            font-size: 28px;
+            color: #37474F;
+        }
+        .fblink{
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: bold;
+            font-size: 16px;
+            margin-top: 36px;
+            color: #37474F;
+        }
+        .contact-form button:hover {
+            background: #A5D6A7;
+            color: #2C3E50;
+        }
+        @media (max-width: 770px) {
+            nav a{
+                margin: 0px 10px;
+            }
+        }
+        footer { background: #2C3E50; color: #E0E0E0; text-align: center; padding: 10px; position: fixed; bottom: 0; width: 100%; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Scenic Sojourn</h1>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <div class="content">
+        <h2 class="text">Contact me</h2>
+        <form class="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email Id" required>
+            <input type="tel" placeholder="Your Contact Number" required>
+            <button type="submit">Send</button>
+        </form>
+        <p class="fblink">For more information, visit my <a href="#" target="_blank">facebook Page</a></p>
+    </div>
+    <footer>
+        <p>&copy; 2025 Scenic Sojourn</p>
+    </footer>
+</body>
+</html>
