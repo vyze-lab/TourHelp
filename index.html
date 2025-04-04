@@ -1,130 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <!-- First html program -->
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="hello.css">
-    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
-    <<link href="https://fonts.googleapis.com/css2?family=Marck+Script&display=swap" rel="stylesheet">
-    <title>DARJEELING</title>
+    <title>Darjeeling Tour</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+        header { background: #2C3E50; color:#E0E0E0; padding: 1px; text-align: center; font-family: "Satisfy", cursive;font-size: 20px;}
+        nav { display: flex; justify-content: center; background: #4A6572; padding: 10px; }
+        nav a { color: #E0E0E0; margin: 0 48px; text-decoration: none; font-size: 18px; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+        nav a:hover{
+            color: #A5D6A7;
+            scale: 1.5;
+            transition:150ms;
+        }
+        .container { padding: 0px; text-align: center; margin-top: 0px;}
+        .image-container {
+            position: relative;
+            height: 100vh;
+            overflow: hidden;
+        }
+        .image-container img {
+            width: 100%;
+            height: 100%;
+            object-fit:fill;
+            opacity: 0.3;
+        }
+        .text-overlay {
+            position: absolute;
+            /* max-width: 700px;
+            width: 100%; */
+            top: 40%;
+            margin-top: 32px;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: #37474F;
+            font-size: 28px;
+            /* text-align: justify; */
+            font-family: "Caveat",cursive;
+            font-weight: bold;
+            background: rgba(255, 255, 255, 0);
+            /* padding: 10px 20px; */
+            /* border-radius: 5px; */
+            /* border: 1px solid blue; */
+        }
+        @media (max-width: 470px) {
+            .text-overlay {
+                padding: 10px;
+                font-size: 14px;
+            }
+        }
+        @media (max-width: 770px) {
+            nav a{
+                margin: 0px 10px;
+            }
+        }
+        footer { background: #2C3E50; color: #E0E0E0; text-align: center; padding: 10px; position: fixed; bottom: 0; width: 100%; }
+    </style>
 </head>
-
 <body>
-    <!-- Hello -->
-    <h1 class="headbg">Darjeeling Tour</h1>
-    <p class="subheadbg"><strong>Tour help for Darjeeling along with my own personal experiences.</strong></p>
-    <div class="desc">
-        <p>
-            Darjeeling is a hill station in the Indian state of West Bengal. 
-            It is located in the Eastern Himalayas, at an average elevation of 6,709 feet (2,045 m). 
-            Darjeeling is famous for its tea plantations, which produce some of the finest tea in the world. 
-            The city is also known for its scenic beauty, with stunning views of the Himalayas, 
-            including Mount Kanchenjunga, the third highest mountain in the world.
-        </p>
-        <p>
-            Darjeeling was founded in the early 19th century by the British East India Company. 
-            The company was looking for a place to grow tea, and Darjeeling's climate and soil were ideal for tea cultivation. 
-            The first tea plantation in Darjeeling was established in 1856. Today, there are over 80 tea plantations in the Darjeeling district.
-        </p>
-        <p>
-            In addition to tea, Darjeeling is also known for its handicrafts, including textiles, woodcarvings, and jewelry. 
-            The city is also home to a number of schools and colleges, including the Government College of Darjeeling, which was founded in 1864.
-        </p>
-        <p>
-            Darjeeling is a popular tourist destination, and the city's economy is largely based on tourism. 
-            The peak tourist seasons are April to June and September to November.
-        </p>
-        <p>
-            Here are some additional facts about Darjeeling:
-        </p>
-        <p>
-            <ul cstyle="list-style-type: circle;" class="desclist">
-                <li>The name Darjeeling means "place of the thunderbolt" in Tibetan.</li>
-                <li>Darjeeling is known as the "Queen of the Hills".</li>
-                <li>The climate in Darjeeling is temperate, with average temperatures ranging from 10 to 25 degrees Celsius (50 to 77 degrees Fahrenheit).</li>
-                <li>The city receives an average annual rainfall of 120 inches (300 centimeters).</li>
-                <li>The official language of Darjeeling is Bengali, but English is also widely spoken.</li>
-                <li>The population of Darjeeling is about 120,000 people.</li>
-            </ul>
-        </p>
-    </div>
-    <h2 class="parabg">Tour lists</h2>
-    
-    <ol id="tourlist">
-        <div id="tourlistbg">
-        <li>Can either fly to IXB, or cath a train or a bus to NJP.</li>
-        <li>Halt one night in NJP or IXB.</li>
-        <li>Book a cab and set off for Darjeeling early on the next day(to have sometime to visit Mirik, Lepchajagat and
-            Nepal-India border on the way).</li>
-        <li>Reside in an already booked hotel (online or offline).</li>
-        <li>Visit Lamahatta Eco park, Peshok tea garden, Rock Garden and return to hotel by sundown.</li>
-        <li>On the next day visit Gopal Dhara Tea Garden, Tribeni, Teesta river and return to hotel by sundown.</li>
-        <li>Last day visit the Tiger Hill, Batasia Loop, Local Market in the morning and Kalimpong in the afternoon
-            followed by hotel before dark.</li>
-        <li>On the return journey you can either fly from IXB airport or can take a train or bus on the next day. We were to catch a flight from IXB to CCU but due our flight being cancelled, we had to return by a car.</li>
-    </div>
-    </ol>
-
-    <div id="costs">
-        <h3 id="totalcost">Total cost (per adult)</h3>
-        <div id="table">
-            <table id="tablepos">
-                <thead class="theadbg">
-                    <tr>
-                        <th class="thead">Catergory</th>
-                        <th class="thead">Cost(in INR)</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td class="tbody1">Travelling</td>
-                        <td class="tbody2">5000</td>
-                    </tr>
-                    <tr>
-                        <td class="tbody1">Food and lodging</td>
-                        <td class="tbody2">5000</td>
-                    </tr>
-                    <tr>
-                        <td class="tbody1">Misllaneous</td>
-                        <td class="tbody2">1000</td>
-                    </tr>
-                    <tr>
-                        <td class="tbody1"><strong>Total</strong></td>
-                        <td class="tbody2"><strong>11000</strong></td>
-                    </tr>
-                </tbody>
-            </table>
+    <header>
+        <h1>Scenic Sojourn</h1>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <div class="container">
+        <div class="image-container">
+            <img src="darjeeling.jpg" alt="Darjeeling View">
+            <div class="text-overlay">Darjeeling, often referred to as the "Queen of the Hills," is a charming hill station nestled in the foothills of the eastern Himalayas in West Bengal, India. Renowned for its breathtaking views of snow-capped peaks, including the majestic Kanchenjunga, Darjeeling offers a serene escape from the bustle of city life. Its cool climate, lush tea gardens, and colonial-era architecture add to its timeless appeal. The famous Darjeeling Himalayan Railway, a UNESCO World Heritage Site, offers a nostalgic ride through misty mountains and picturesque valleys. Whether you're sipping a cup of world-famous Darjeeling tea or strolling along the Mall Road, the town's unique blend of natural beauty and cultural richness leaves a lasting impression.</div>
         </div>
     </div>
-    <div id="notes">
-        <p id="note"><strong>Note: </strong> Keep in mind.</p>
-        <ul class="bodybg" id="impnote">
-            <li>Try not to drive after sundown (because of extreme fog).</li>
-            <li>Be sure to have some anti-vomiting pills.</li>
-        </ul>
-    </div>
-
-    <details>
-        <p><Strong>
-                <summary class="parabg" id="imgmar">Gallery</summary>
-            </Strong></p>
-        <div class="imagebg">
-            <img src="img1.jpg" width="360" height="200" alt="Error loading image" class="img">
-            <!-- <img src="test.jpg" width="360" height="200" alt="Error loading image" class="img"> -->
-            <img src="img2.jpg" width="360" height="200" alt="Error loading image" class="img">
-            <img src="img3.jpg" width="360" height="200" alt="Error loading image" class="img">
-        </div>
-    </details>
-    <p><strong>
-            <summary class="parabg">For more information refer to my facebook page.</summary>
-        </strong></p>
-    <div class="fbbg">
-        <a id="faceb" href="https://www.facebook.com/jayanta.mohapatra.142" target="_blank">Visit my facebook page.</a>
-    </div>
+    <footer>
+        <p>&copy; 2025 Scenic Sojourn</p>
+    </footer>
 </body>
-
 </html>
